@@ -3,9 +3,18 @@ Question 1: Given some sample data, write a program to answer the following: cli
 
 On Shopify, we have exactly 100 sneaker shops, and each of these shops sells only one model of shoe. We want to do some analysis of the average order value (AOV). When we look at orders data over a 30 day window, we naively calculate an AOV of $3145.13. Given that we know these shops are selling sneakers, a relatively affordable item, something seems wrong with our analysis. 
 
-Think about what could be going wrong with our calculation. Think about a better way to evaluate this data. 
+Think about what could be going wrong with our calculation. Think about a better way to evaluate this data.
+Answer: 
+There were a lot of outliers; A better way to evaluate this data is to remove the outliers first before attempting to get the mean (average) value. 
+
 What metric would you report for this dataset?
+Answer: 
+Since mean is quite sensitive to outliers, median could be used instead; But if outliers are removed, mean could still be used as metric.
+
 What is its value?
+Answer: 
+The value of median: $284.00
+The value of mean after removing outliers: $230.46
 
 
 Question 2: For this question you’ll need to use SQL. Follow this link to access the data set required for the challenge. 
