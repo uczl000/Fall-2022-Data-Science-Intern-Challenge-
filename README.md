@@ -13,7 +13,7 @@ Since mean is quite sensitive to outliers, median could be used instead; But if 
 
 What is its value?
 Answer: 
-The value of median: $284.00
+The value of median: $284.00;
 The value of mean after removing outliers: $230.46
 
 
