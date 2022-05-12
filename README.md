@@ -15,7 +15,7 @@ c. What is its value?
 Answer: 
 The value of median: $284.00;
 The value of mean after removing outliers: $230.46
-
+[Check my code file]
 
 Question 2: For this question you’ll need to use SQL. Follow this link to access the data set required for the challenge. 
 Please use queries to answer the following questions. Paste your queries along with your final numerical answers below.
